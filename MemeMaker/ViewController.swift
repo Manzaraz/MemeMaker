@@ -14,6 +14,18 @@ class ViewController: UIViewController {
     @IBOutlet var topCaptionLabel: UILabel!
     @IBOutlet var bottomCaptionLabel: UILabel!
     
+    let topChoices = [
+        CaptionOption(emoji: "🕶️", caption: "¿Sabes qué sería genial?"),
+        CaptionOption(emoji: 💥, caption: "¿Sabes qué me hace enojar?"),
+        CaptionOption(emoji: "💕", caption: "¿Sabes qué me encanta?")
+    ]
+    
+    let bottomChoices = [
+        CaptionOption(emoji: "😸", caption: "Gatos con botas"),
+        CaptionOption(emoji: "🐶", caption: "Perro cargando un gran hueso"),
+        CaptionOption(emoji: "🙊", caption: "Monos trepando tu hombro")
+    ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
