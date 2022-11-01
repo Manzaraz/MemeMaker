@@ -8,12 +8,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet var topSegmentedControl: UISegmentedControl!
+    @IBOutlet var bottomSegmentedControl: UISegmentedControl!
+    
+    @IBOutlet var topCaptionLabel: UILabel!
+    @IBOutlet var bottomCaptionLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
 
-
+    @IBAction func segmentedControlChanged(_ sender: Any) {
+        
+    }
+    
+    
 }
 
